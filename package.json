@@ -9,8 +9,8 @@
     "dev:eleventy": "npx @11ty/eleventy --serve",
     "build:tailwind": "npx tailwindcss -i src/styles/tailwind.css -o public/styles/main.css --minify",
     "build:eleventy": "ELEVENTY_PRODUCTION=true npx @11ty/eleventy",
-    "dev": "npm run clean & concurrently npm:dev:*",
-    "build": "NODE_ENV=production npm run clean & concurrently npm:build:*"
+    "dev": "npm run clean & npx concurrently npm:dev:*",
+    "build": "NODE_ENV=production npm run clean & npx concurrently npm:build:*"
   },
   "keywords": [],
   "author": "",
