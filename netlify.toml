@@ -3,11 +3,3 @@
   targetPort = 3001
   port = 8888
   publish = "_site"
-
-[build.environment]
-  NODE_VERSION = "16"
-  NPM_FLAGS = "--prefix=/dev/null"
-
-[build]
-  publish = "_site"
-  command = "npx pnpm i --store=node_modules/.pnpm-store && npx pnpm run build"
