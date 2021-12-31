@@ -1,3 +1,3 @@
 backend:
-  name: github
-  repo: sthorng/ssg-starter
+  name: git-gateway
+  branch: main
