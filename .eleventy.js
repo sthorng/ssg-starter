@@ -1,11 +1,11 @@
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   eleventyConfig.setUseGitIgnore(false);
-  eleventyConfig.addWatchTarget('./src/styles/tailwind.css');
-  eleventyConfig.addPassthroughCopy('./src/assets');
+  eleventyConfig.addWatchTarget("./src/styles/tailwind.css");
+  eleventyConfig.addPassthroughCopy("./src/assets");
   return {
     dir: {
-      input: 'src',
-      output: 'public'
-    }
-  }
-}
+      input: "src",
+    },
+    htmlTemplateEngine: "njk",
+  };
+};
