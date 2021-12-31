@@ -1,6 +1,2 @@
 backend:
   name: git-gateway
-media_folder: 'src/static/img'
-public_folder: '/static/img'
-local_backend: true
-publish_mode: editorial_workflow
