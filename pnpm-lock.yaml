@@ -2,7 +2,9 @@ lockfileVersion: 5.3
 
 specifiers:
   '@11ty/eleventy': ^0.12.1
+  '@tailwindcss/aspect-ratio': ^0.4.0
   '@tailwindcss/forms': ^0.4.0
+  '@tailwindcss/typography': ^0.5.0
   autoprefixer: ^10.4.1
   axios: ^0.24.0
   concurrently: ^6.5.1
@@ -12,7 +14,9 @@ specifiers:
 
 dependencies:
   '@11ty/eleventy': 0.12.1
+  '@tailwindcss/aspect-ratio': 0.4.0_tailwindcss@3.0.8
   '@tailwindcss/forms': 0.4.0_tailwindcss@3.0.8
+  '@tailwindcss/typography': 0.5.0_tailwindcss@3.0.8
   axios: 0.24.0
   concurrently: 6.5.1
   rimraf: 3.0.2
@@ -127,12 +131,32 @@ packages:
       fastq: 1.13.0
     dev: false
 
+  /@tailwindcss/aspect-ratio/0.4.0_tailwindcss@3.0.8:
+    resolution: {integrity: sha512-WJu0I4PpqNPuutpaA9zDUq2JXR+lorZ7PbLcKNLmb6GL9/HLfC7w3CRsMhJF4BbYd/lkY6CfXOvkYpuGnZfkpQ==}
+    peerDependencies:
+      tailwindcss: '>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1'
+    dependencies:
+      tailwindcss: 3.0.8_cefe482e8d38053bbf3d5815e0c551b3
+    dev: false
+
   /@tailwindcss/forms/0.4.0_tailwindcss@3.0.8:
     resolution: {integrity: sha512-DeaQBx6EgEeuZPQACvC+mKneJsD8am1uiJugjgQK1+/Vt+Ai0GpFBC2T2fqnUad71WgOxyrZPE6BG1VaI6YqfQ==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1'
     dependencies:
       mini-svg-data-uri: 1.4.3
+      tailwindcss: 3.0.8_cefe482e8d38053bbf3d5815e0c551b3
+    dev: false
+
+  /@tailwindcss/typography/0.5.0_tailwindcss@3.0.8:
+    resolution: {integrity: sha512-1p/3C6C+JJziS/ghtG8ACYalbA2SyLJY27Pm33cVTlAoY6VQ7zfm2H64cPxUMBkVIlWXTtWHhZcZJPobMRmQAA==}
+    peerDependencies:
+      tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1 || insiders'
+    dependencies:
+      lodash.castarray: 4.4.0
+      lodash.isplainobject: 4.0.6
+      lodash.merge: 4.6.2
+      lodash.uniq: 4.5.0
       tailwindcss: 3.0.8_cefe482e8d38053bbf3d5815e0c551b3
     dev: false
 
@@ -1519,8 +1543,24 @@ packages:
       p-locate: 4.1.0
     dev: false
 
+  /lodash.castarray/4.4.0:
+    resolution: {integrity: sha1-wCUTUV4wna3dTCTGDP3c9ZdtkRU=}
+    dev: false
+
   /lodash.isfinite/3.3.2:
     resolution: {integrity: sha1-+4m2WpqAKBgz8LdHizpRBPiY67M=}
+    dev: false
+
+  /lodash.isplainobject/4.0.6:
+    resolution: {integrity: sha1-fFJqUtibRcRcxpC4gWO+BJf1UMs=}
+    dev: false
+
+  /lodash.merge/4.6.2:
+    resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
+    dev: false
+
+  /lodash.uniq/4.5.0:
+    resolution: {integrity: sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=}
     dev: false
 
   /lodash/4.17.21:
