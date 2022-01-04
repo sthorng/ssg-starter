@@ -9,6 +9,7 @@ specifiers:
   axios: ^0.24.0
   concurrently: ^6.5.1
   postcss: ^8.4.5
+  prettier: ^2.5.1
   rimraf: ^3.0.2
   tailwindcss: ^3.0.8
 
@@ -19,6 +20,7 @@ dependencies:
   '@tailwindcss/typography': 0.5.0_tailwindcss@3.0.8
   axios: 0.24.0
   concurrently: 6.5.1
+  prettier: 2.5.1
   rimraf: 3.0.2
   tailwindcss: 3.0.8_cefe482e8d38053bbf3d5815e0c551b3
 
@@ -1977,6 +1979,12 @@ packages:
       nanoid: 3.1.30
       picocolors: 1.0.0
       source-map-js: 1.0.1
+
+  /prettier/2.5.1:
+    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: false
 
   /pretty-ms/0.2.2:
     resolution: {integrity: sha1-2oeaaC/zOjcBEEbxPWJ/Z8c7hPY=}
